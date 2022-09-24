@@ -113,7 +113,7 @@ _Figure 8: Forecasted rainfall and monthly temperature_
 ### Crop Recommendations
 Based on the soil’s fertility and weather, a set of crops are recommended based on the  highest suitability. These recommendations aim to provide the users a narrowed down list of crops that are highly likely to grow with minimal adjustments needed. Users are able to expand on the crop-specific adjustments to get tips on how to effectively remedy them in order to enhance growing conditions.
 
-<img src="./images/crop-recommendations.jfif" width="750"/>
+![image](https://user-images.githubusercontent.com/88650559/192113412-4e83ff3c-676c-4a57-ae39-7b10f40c95fe.png)
 
 _Figure 9: Crop recommendations and suggested adjustments_
 
@@ -307,5 +307,5 @@ We hope Farmtech becomes the preferred choice for understanding land and environ
 
 ## References
 
-Food and Agriculture Organization of the India. (2022). The state of food security and nutrition in the world 2022. Retrieved August 26, 2022, from [https://www.fao.org/publications/sofi/2022/en/](https://dfpd.gov.in/food-and-agricultural-organisation.htm#:~:text=Food%20and%20Agricultural%20Organization%20(FAO,living%20conditions%20of%20rural%20population.)
+Food and Agriculture Organization of the India. (2022). The state of food security and nutrition in the world 2022. Retrieved August 26, 2022, from [https://www.fao.org/publications/sofi/2022/en/] (https://dfpd.gov.in/food-and-agricultural-organisation.htm#:~:text=Food%20and%20Agricultural%20Organization%20(FAO,living%20conditions%20of%20rural%20population.)
 
