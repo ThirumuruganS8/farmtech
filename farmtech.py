@@ -85,7 +85,7 @@ st.markdown("# Farm-Tech")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.markdown(f"Location: **Tamil Nadu, Kerala, Karnataka, Andhra Pradash and more**, Vicinity: **{vicinity}m**") 
+    st.markdown(f"Location: **Chennai, TamilNadu, India**, Vicinity: **{vicinity}m**") 
 
 with col2:
     with st.expander('Show location data'):
