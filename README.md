@@ -307,5 +307,5 @@ We hope Farmtech becomes the preferred choice for understanding land and environ
 
 ## References
 
-Food and Agriculture Organization of the India. (2022). The state of food security and nutrition in the world 2022. Retrieved August 26, 2022, from [https://www.fao.org/publications/sofi/2022/en/] (https://dfpd.gov.in/food-and-agricultural-organisation.htm#:~:text=Food%20and%20Agricultural%20Organization%20(FAO,living%20conditions%20of%20rural%20population.)
+Food and Agriculture Organization of the India. (2022). The state of food security and nutrition in the world 2022. Retrieved August 26, 2022, from https://dfpd.gov.in/food-and-agricultural-organisation.htm#:~:text=Food%20and%20Agricultural%20Organization%20(FAO,living%20conditions%20of%20rural%20population.
 
