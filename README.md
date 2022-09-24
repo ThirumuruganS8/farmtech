@@ -25,9 +25,7 @@ In the next 25 years, the world population is expected to increase by 1.5 billio
 
 Figure 1 shows that the Tamilnadu continent is most hit by hunger, as shown by the darker colours that signifies a larger percentage of the population suffering from hunger. Hence, the target region for Farmtech is the Tamilnadu continent. This is further elaborated on in the “Target Users” section.
 
-<img src="./images/fao-world-hunger-map.png" width="750"/>
-
-_Figure 1: FAO World Hunger Map (Food and Agriculture Organization of the United Nations, 2022)_
+![image](https://user-images.githubusercontent.com/88650559/192113264-a8841421-05cf-4feb-aa85-98c5c22edf2d.png)
 
 Climate change is one of the biggest factors that has further intensified the challenge for food security. It is estimated that food production must increase by 60% to meet the food demand by 2050 (United Nations, 2021).
 
