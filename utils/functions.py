@@ -3,6 +3,7 @@ import pandas as pd
 import streamlit as st
 import requests
 
+
 def reverse_geocode(lat_lon):
     """
     Calls the Nominatim API to conduct reverse geocoding.
@@ -19,7 +20,7 @@ def reverse_geocode(lat_lon):
 def extract_country_weather(country_code, variable):
     """
     Given a country_code, extracts rainfall/temp data from csv and performs some preprocessing.
-    :param country_code: String, Alpha-2 country code (e.g. RW for rwanda)
+    :param country_code: String, state code (e.g. TN for Tamilnadu)
     :param variable: String, only either 'rainfall' or 'temp' accepted.
     :return:
     """

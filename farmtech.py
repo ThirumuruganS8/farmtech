@@ -3,7 +3,7 @@ import folium
 import pandas as pd
 import streamlit as st
 from streamlit_folium import st_folium
-
+import requests
 import utils.functions as functions
 import utils.extract_isdasoil as isdasoil
 
@@ -89,7 +89,12 @@ with col1:
 
 with col2:
     with st.expander('Show location data'):
-        st.json(location)
+        URL = 'https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat={lat}&lon={lon}'
+        lat_lon=(10.9094334,78.3665347)
+        r = requests.get(URL.format(lat=lat_lon[0],lon=lat_lon[1]))
+
+        tndata = r.json()
+        st.json(tndata)
 
 
 st.markdown('## Environment')
@@ -123,7 +128,8 @@ with col1:
 
     # Plot map
     zoom_start = 17 + int(vicinity / 1000)
-    tn_map = folium.Map(location=point, zoom_start=zoom_start)
+    tn_location=(10.9094334,78.3665347)
+    indian_map = folium.Map(location=tn_location, zoom_start=zoom_start)
 
     folium.Choropleth(
         geo_data=geo_json,
@@ -135,11 +141,11 @@ with col1:
         fill_opacity=0.7,
         line_opacity=0.2,
         legend_name=option
-    ).add_to(tn_map)
+    ).add_to(indian_map)
 
-    folium.Marker(point, tooltip='Selected Point').add_to(tn_map)
-    folium.LayerControl().add_to(tn_map)
-    st_folium(tn_map)
+    folium.Marker(tn_location, tooltip='Selected Point').add_to(indian_map)
+    folium.LayerControl().add_to(indian_map)
+    st_folium(indian_map)
 
 with col2:
     for col in ['Total Nitrogen', 'Soil Phosphorous', 'Soil Potassium', 'Soil pH']:
@@ -202,13 +208,13 @@ col1, col2 = st.columns(2)
 with col1:
     c = functions.hover_line_chart(data=rainfall.T.reset_index(), x='index', y='rainfall',
                                    x_title="Month", y_title='Total Rainfall (mm)',
-                                   title=f"Forecasted Rainfall in {country} for 2023")
+                                   title=f"Forecasted Rainfall in TamilNadu for 2023")
     st.altair_chart(c, use_container_width=True)
 
 with col2:
     c = functions.hover_line_chart(data=temp.T.reset_index(), x='index', y='temp',
                                    x_title="Month", y_title='Average Temp (C)',
-                                   title=f"Forecasted Monthly Temperature in {country} for 2023")
+                                   title=f"Forecasted Monthly Temperature in TamilNadu for 2023")
     st.altair_chart(c, use_container_width=True)
 
 
@@ -257,11 +263,11 @@ else:
 
 st.markdown('## Places to Purchase Farming Supplies')
 
-with st.expander('Stores in ' + country):
+with st.expander('Stores in TamilNadu'):
     places_df = pd.read_csv('./data/farming_supplies_places.csv')
-    filtered_df = places_df.loc[places_df['Country'] == country]
+    filtered_df = places_df.loc[places_df['Country'] == "Chennai"]
 
     if filtered_df.shape[0] > 0:
         st.dataframe(filtered_df)
     else:
-        st.markdown('No stores found in ' + country + '. Do check with your local communities.')
+        st.markdown('No stores found in TamilNadu. Do check with your local communities.')
