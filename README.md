@@ -70,7 +70,7 @@ Ultimately, the tool aims to help users understand the existing conditions of th
 ### Location Selector
 On the Settings page, the user is able to navigate and click on their desired location from the map on the left. The selected location is then reflected on the map on the right. 
 
-<img src="./images/location-selector.png" width="750"/>
+![image](https://user-images.githubusercontent.com/88650559/192111163-2f9f22d2-22c8-4137-ab23-95d212843f90.png)
 
 _Figure 4: Location selector_ 
 
@@ -126,7 +126,7 @@ _Figure 9: Crop recommendations and suggested adjustments_
 ### Places to Purchase Farming Supplies
 Farmers may benefit from this feature should they want to act on the proposed modifications and adjustments. Hence, Farmtech also provides recommended farming and fertilizer suppliers that are near the selected location. 
 
-<img src="./images/farming-supplies-places.png" width="750"/>
+![image](https://user-images.githubusercontent.com/88650559/192111224-d4a16267-0354-4e41-9193-788e45e2d84b.png)
 
 _Figure 10: Nearby farming and fertilizer suppliers_
 
