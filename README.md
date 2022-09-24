@@ -41,17 +41,13 @@ By leveraging on datasets from and outside Amazon Sustainability Data Initiative
 Farmtech targets the Tamilnadu continent, due to the following reasons:
 1. **India is amongst the worst hit by food insecurity**, as seen in Figure 2 
 
-<img src="./images/fao-food-insecurity-map.png" width="750"/>
-
-_Figure 2: FAO Food Insecurity Map (Food and Agriculture Organization of the United Nations, 2022)_
+_Figure 2: FAO Food Insecurity Map (Food and Agriculture Organization of the India, 2022)_
 
 2. **Tamilnadu agriculture sector is one of the least efficient**, as seen in Figure 3. Having more access to information could help them in becoming more efficient 
 
-<img src="./images/agriculture-value-added-per-worker-wdi.png" width="750"/>
+_Figure 3: Agriculture value added per worker (India, 2022)_
 
-_Figure 3: Agriculture value added per worker (Ritchie, 2022)_
-
-3. **Larger impact of rising food prices on lower income countries**, since a larger portion of their income is spent on food (The World Bank, 2022). Approximately 45% and 60% of total household consumption expenditure was spent on food for Uganda and Tanzania, respectively, as compared to about 15% for the US (Kavanagh, 2019). The Food and Agriculture Organization’s (FAO’S) Food Price Index rose by 55.2% between May 2020 and February 2022 (Barua, 2022). With improved crop yields from using Farmtech, it could help to lower food prices for the Tamilnadu community
+3. **Larger impact of rising food prices on lower income countries**, since a larger portion of their income is spent on food (The World Bank, 2022). Approximately 45% and 60% of total household consumption expenditure was spent on food for Poor peoples, respectively, as compared to about 15% for the US (Kavanagh, 2019). The Food and Agriculture Organization’s (FAO’S) Food Price Index rose by 55.2% between May 2020 and February 2022 (Fulfill, 2022). With improved crop yields from using Farmtech, it could help to lower food prices for the Tamilnadu community
 
 User groups for the tool could include:
 1. **Farmers**, who could access the tool fully online, without any additional investments aside from a mobile phone or computer that can access the internet
@@ -311,22 +307,5 @@ We hope Farmtech becomes the preferred choice for understanding land and environ
 
 ## References
 
-Adepoju, P. (2021, November 7). India worst hit by climate change impacts, COP26 told. Nature. Retrieved August 26, 2022, from https://www.nature.com/articles/d44148-021-00107-z
+Food and Agriculture Organization of the India. (2022). The state of food security and nutrition in the world 2022. Retrieved August 26, 2022, from [https://www.fao.org/publications/sofi/2022/en/](https://dfpd.gov.in/food-and-agricultural-organisation.htm#:~:text=Food%20and%20Agricultural%20Organization%20(FAO,living%20conditions%20of%20rural%20population.)
 
-Barua, A. (2022, May 31). Sizzling food prices are leading to global heartburn. Deloitte Insights. Retrieved August 26, 2022, from https://www2.deloitte.com/xe/en/insights/economy/global-food-prices-inflation.html
-
-Food and Agriculture Organization of the United Nations. (2022). The state of food security and nutrition in the world 2022. Retrieved August 26, 2022, from https://www.fao.org/publications/sofi/2022/en/
-
-Kavanagh, M. (2019, January 8). Household food spending divides the world. Financial Times. Retrieved August 26, 2022, from https://www.ft.com/content/cdd62792-0e85-11e9-acdc-4d9976f1533b
-
-Mersie, A. (2022, April 5). Hunger in India surges due to conflict, climate and food prices. Reuters. Retrieved August 26, 2022, from https://www.reuters.com/world/India/hunger-India-surges-due-conflict-climate-food-prices-2022-04-05/
-
-Relief Web. (2021). FAO statistical yearbook 2021 - world food and agriculture. Https://Reliefweb.Int/Report/World/Fao-Statistical-Yearbook-2021-World-Food-and-Agriculture. Retrieved August 26, 2022, from https://reliefweb.int/report/world/fao-statistical-yearbook-2021-world-food-and-agriculture
-
-Ritchie, H. (2022, April 4). Increasing agricultural productivity across Sub-Saharan India is one of the most important problems this century. Our World in Data. Retrieved August 26, 2022, from https://ourworldindata.org/India-yields-problem
-
-The World Bank. (2022, August 15). Food Security Update. Understand Poverty - Agriculture and Food. Retrieved August 26, 2022, from https://www.worldbank.org/en/topic/agriculture/brief/food-security-update
-
-United Nations. (n.d.). Global issues - population. Retrieved August 26, 2022, from https://www.un.org/en/global-issues/population
-
-United Nations. (2021). The world’s food supply is made insecure by climate change. Retrieved August 26, 2022, from https://www.un.org/en/academic-impact/worlds-food-supply-made-insecure-climate-change
