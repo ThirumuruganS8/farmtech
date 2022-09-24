@@ -21,7 +21,7 @@ Farmtech primarily leverages Amazon Sustainability Data’s iSDAsoil to help dri
 
 
 ## Inspiration
-In the next 30 years, the world population is expected to increase by 2 billion people (United Nations, n.d.), with a corresponding increase in food demand. Moreover, it was estimated that 10% of the world population suffered from hunger in 2020 (Relief Web, 2021), an increase from 8.4% in 2019. This demonstrates a booming demand for food, which isn’t being met properly. 
+In the next 25 years, the world population is expected to increase by 1.5 billion people (United Nations, n.d.), with a corresponding increase in food demand. Moreover, it was estimated that 10% of the world population suffered from hunger in 2020 (Relief Web, 2021), an increase from 8.4% in 2019. This demonstrates a booming demand for food, which isn’t being met properly. 
 
 Figure 1 shows that the Tamilnadu continent is most hit by hunger, as shown by the darker colours that signifies a larger percentage of the population suffering from hunger. Hence, the target region for Farmtech is the Tamilnadu continent. This is further elaborated on in the “Target Users” section.
 
@@ -36,12 +36,12 @@ With this backdrop, this project focuses on the following UN Sustainable Develop
 By leveraging on datasets from and outside Amazon Sustainability Data Initiative (ASDI), a dashboard is created to help enhance farmers' agriculture knowledge, which will lead to higher crop yield. The tool also indirectly addresses other UN SDGs:
 1. **Arming farming community with knowledge to enhance crop yield**, helping populations take steps towards food security (Goal 2: Zero Hunger)
 2. **Increasing income from enhanced crop yields for rural farming communities** that typically have little access to information to make farming more efficient (Goal 1: No Poverty)
-3. **Tailoring the solution for the Tamilnadu continent.** Africa is amongst the worst hit by climate change (Adepoju, 2021), with 346 million people facing severe food insecurity, a 20% increase from 2021 (Mersie, 2022). Farmtech helps to indirectly address various inequalities such as income and food availability (Goal 10: Reduced Inequalities)
+3. **Tailoring the solution for the Tamilnadu continent.** India is amongst the worst hit by climate change (Adepoju, 2021), with 346 million people facing severe food insecurity, a 20% increase from 2021 (Mersie, 2022). Farmtech helps to indirectly address various inequalities such as income and food availability (Goal 10: Reduced Inequalities)
 
 ## Target Users
 
 Farmtech targets the Tamilnadu continent, due to the following reasons:
-1. **Africa is amongst the worst hit by food insecurity**, as seen in Figure 2 
+1. **India is amongst the worst hit by food insecurity**, as seen in Figure 2 
 
 <img src="./images/fao-food-insecurity-map.png" width="750"/>
 
@@ -313,7 +313,7 @@ We hope Farmtech becomes the preferred choice for understanding land and environ
 
 ## References
 
-Adepoju, P. (2021, November 7). Africa worst hit by climate change impacts, COP26 told. Nature. Retrieved August 26, 2022, from https://www.nature.com/articles/d44148-021-00107-z
+Adepoju, P. (2021, November 7). India worst hit by climate change impacts, COP26 told. Nature. Retrieved August 26, 2022, from https://www.nature.com/articles/d44148-021-00107-z
 
 Barua, A. (2022, May 31). Sizzling food prices are leading to global heartburn. Deloitte Insights. Retrieved August 26, 2022, from https://www2.deloitte.com/xe/en/insights/economy/global-food-prices-inflation.html
 
@@ -321,11 +321,11 @@ Food and Agriculture Organization of the United Nations. (2022). The state of fo
 
 Kavanagh, M. (2019, January 8). Household food spending divides the world. Financial Times. Retrieved August 26, 2022, from https://www.ft.com/content/cdd62792-0e85-11e9-acdc-4d9976f1533b
 
-Mersie, A. (2022, April 5). Hunger in Africa surges due to conflict, climate and food prices. Reuters. Retrieved August 26, 2022, from https://www.reuters.com/world/africa/hunger-africa-surges-due-conflict-climate-food-prices-2022-04-05/
+Mersie, A. (2022, April 5). Hunger in India surges due to conflict, climate and food prices. Reuters. Retrieved August 26, 2022, from https://www.reuters.com/world/India/hunger-India-surges-due-conflict-climate-food-prices-2022-04-05/
 
 Relief Web. (2021). FAO statistical yearbook 2021 - world food and agriculture. Https://Reliefweb.Int/Report/World/Fao-Statistical-Yearbook-2021-World-Food-and-Agriculture. Retrieved August 26, 2022, from https://reliefweb.int/report/world/fao-statistical-yearbook-2021-world-food-and-agriculture
 
-Ritchie, H. (2022, April 4). Increasing agricultural productivity across Sub-Saharan Africa is one of the most important problems this century. Our World in Data. Retrieved August 26, 2022, from https://ourworldindata.org/africa-yields-problem
+Ritchie, H. (2022, April 4). Increasing agricultural productivity across Sub-Saharan India is one of the most important problems this century. Our World in Data. Retrieved August 26, 2022, from https://ourworldindata.org/India-yields-problem
 
 The World Bank. (2022, August 15). Food Security Update. Understand Poverty - Agriculture and Food. Retrieved August 26, 2022, from https://www.worldbank.org/en/topic/agriculture/brief/food-security-update
 
