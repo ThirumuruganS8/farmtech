@@ -39,13 +39,9 @@ By leveraging on datasets from and outside Amazon Sustainability Data Initiative
 ## Target Users
 
 Farmtech targets the Tamilnadu continent, due to the following reasons:
-1. **India is amongst the worst hit by food insecurity**, as seen in Figure 2 
+1. **India is amongst the worst hit by food insecurity**
 
-_Figure 2: FAO Food Insecurity Map (Food and Agriculture Organization of the India, 2022)_
-
-2. **Tamilnadu agriculture sector is one of the least efficient**, as seen in Figure 3. Having more access to information could help them in becoming more efficient 
-
-_Figure 3: Agriculture value added per worker (India, 2022)_
+2. **Tamilnadu agriculture sector is one of the least efficient**. Having more access to information could help them in becoming more efficient 
 
 3. **Larger impact of rising food prices on lower income countries**, since a larger portion of their income is spent on food (The World Bank, 2022). Approximately 45% and 60% of total household consumption expenditure was spent on food for Poor peoples, respectively, as compared to about 15% for the US (Kavanagh, 2019). The Food and Agriculture Organization’s (FAO’S) Food Price Index rose by 55.2% between May 2020 and February 2022 (Fulfill, 2022). With improved crop yields from using Farmtech, it could help to lower food prices for the Tamilnadu community
 
@@ -66,15 +62,15 @@ On the Settings page, the user is able to navigate and click on their desired lo
 
 ![image](https://user-images.githubusercontent.com/88650559/192111163-2f9f22d2-22c8-4137-ab23-95d212843f90.png)
 
-_Figure 4: Location selector_ 
+_Figure 1: Location selector_ 
 
 ### Environment Information
 
-After selecting the location, the user proceeds to the Farmtech dashboard. One of the features is a heatmap to display the existing conditions within a 30m by 30m plot based on the selected location (Figure 5). 
+After selecting the location, the user proceeds to the Farmtech dashboard. One of the features is a heatmap to display the existing conditions within a 30m by 30m plot based on the selected location (Figure 2). 
 
 <img src="./images/land-condition-heatmap.png" width="450"/>
 
-_Figure 5: Land condition heatmap and growable land metrics_
+_Figure 2: Land condition heatmap and growable land metrics_
 
 The darker the color, the higher the condition. The condition can be selected in the drop down above the map, and they consist of:
 - Fertility Capability Classification (“FCC”)
@@ -89,40 +85,40 @@ Beside the choropleth map, the following histograms provide the user with a high
 
 <img src="./images/land-condition-visualizations.png" width="750"/>
 
-_Figure 6: Visualizations on land conditions_
+_Figure 3: Visualizations on land conditions_
 
-Below the land condition heatmap, there are 2 metrics available (shown at the bottom of Figure 3):
+Below the land condition heatmap, there are 2 metrics available:
 - **Growable land**: This indicates the percentage of land in the selected area that has ideal land conditions
-- **Growable land (after modifications)**: This indicates the forecasted percentage of land in the selected area that is likely to have ideal land conditions after proposed modifications are made (refer to Figure 7 below). 
+- **Growable land (after modifications)**: This indicates the forecasted percentage of land in the selected area that is likely to have ideal land conditions after proposed modifications are made (refer to Figure 4 below). 
 	
 These metrics could help users identify a plot of land that inherently already is ideal for growing crops, so as to reduce the amount of modifications required. 
 
-From there, the dashboard shows proposed modifications that the user can make to improve the land conditions (Figure 7). References are also provided should the user require more relevant information. 
+From there, the dashboard shows proposed modifications that the user can make to improve the land conditions (Figure 4). References are also provided should the user require more relevant information. 
 
 <img src="./images/proposed-modifications.png" width="750"/>
 
-_Figure 7: Proposed modifications_
+_Figure 4: Proposed modifications_
 
 ### Weather Information
-Forecasted rainfall and monthly temperatures in the selected location for the next few months are also shared (Figure 8). This could help the user in planning, as different crops may require different amounts of water and temperatures.
+Forecasted rainfall and monthly temperatures in the selected location for the next few months are also shared (Figure 5). This could help the user in planning, as different crops may require different amounts of water and temperatures.
 
 <img src="./images/weather-forecasts.png" width="750"/>
 
-_Figure 8: Forecasted rainfall and monthly temperature_
+_Figure 5: Forecasted rainfall and monthly temperature_
 
 ### Crop Recommendations
 Based on the soil’s fertility and weather, a set of crops are recommended based on the  highest suitability. These recommendations aim to provide the users a narrowed down list of crops that are highly likely to grow with minimal adjustments needed. Users are able to expand on the crop-specific adjustments to get tips on how to effectively remedy them in order to enhance growing conditions.
 
 ![image](https://user-images.githubusercontent.com/88650559/192113412-4e83ff3c-676c-4a57-ae39-7b10f40c95fe.png)
 
-_Figure 9: Crop recommendations and suggested adjustments_
+_Figure 6: Crop recommendations and suggested adjustments_
 
 ### Places to Purchase Farming Supplies
 Farmers may benefit from this feature should they want to act on the proposed modifications and adjustments. Hence, Farmtech also provides recommended farming and fertilizer suppliers that are near the selected location. 
 
 ![image](https://user-images.githubusercontent.com/88650559/192111224-d4a16267-0354-4e41-9193-788e45e2d84b.png)
 
-_Figure 10: Nearby farming and fertilizer suppliers_
+_Figure 7: Nearby farming and fertilizer suppliers_
 
 ## Datasets Used
 In building Farmtech, we used a combination of datasets from different sources and also augmented some of our own that we had built through research.
@@ -162,9 +158,9 @@ The list of farming and fertilizer suppliers was compiled based on a few sources
 
 | Source                                                                    | Link                                                            | 
 |---------------------------------------------------------------------------|-----------------------------------------------------------------|
-| Fertilizer Association of Southern Africa (Fertasa) - Directory List      | http://www.fertasa.co.za/member-directory/directory-list/       | 
-| Kenyan website containing list of fertilizer companies in Kenya           | https://victormatara.com/list-of-fertilizer-companies-in-kenya/ |
-| East Africa’s leading business directory and tender notification platform | https://eastafricatenders.com/businesses/fertilizer/            |
+| Fertilizer Association of India - Directory List      | http://www.fertasa.co.za/member-directory/directory-list/       | 
+| TamilNadu website containing list of fertilizer companies in TamilNadu           | https://tnpcb.gov.in/pdf/17Category/FertilizerUnits.pdf |
+| Chennai leading business directory and tender notification platform | https://tntenders.gov.in/nicgep/            |
 | Searches on Google Maps                                                   | Google Maps                                                     |
 
 _Table 2: Sources for farming and fertilizer suppliers_
