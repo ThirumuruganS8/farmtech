@@ -36,6 +36,14 @@ By leveraging on datasets from and outside Amazon Sustainability Data Initiative
 2. **Increasing income from enhanced crop yields for rural farming communities** that typically have little access to information to make farming more efficient (Goal 1: No Poverty)
 3. **Tailoring the solution for the Tamilnadu continent.** India is amongst the worst hit by climate change (Adepoju, 2021), with 346 million people facing severe food insecurity, a 20% increase from 2021 (Mersie, 2022). Farmtech helps to indirectly address various inequalities such as income and food availability (Goal 10: Reduced Inequalities)
 
+## IBMz Datathon
+
+![image](https://user-images.githubusercontent.com/88650559/192129082-7f7dd579-c3e4-4968-9d66-716e573bbaf0.png)
+
+It was a IBMz datathon project. So we have worked on the linuxOne tool to accomplish our project in Jupiter Notebook
+Ref: https://developer.ibm.com/components/ibm-linuxone/
+
+
 ## Target Users
 
 Farmtech targets the Tamilnadu continent, due to the following reasons:
