@@ -70,7 +70,7 @@ def hover_line_chart(data,x,y,x_title, y_title, title):
 def initialise_app():
     # Config 
     st.set_page_config(page_title='Farmtech', 
-                    page_icon='🌱',
+                    page_icon='🌿',
                     layout='wide', 
                     initial_sidebar_state='expanded')
 
