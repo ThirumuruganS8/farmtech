@@ -144,7 +144,7 @@ Soil properties extracted from iSDAsoil include:
 ### Weather Data
 Historical weather information for each of the 54 Tamilnadu countries was pulled from the World Bank Climate Change Knowledge Portal. These datasets contained monthly aggregations of  the actual recorded temperature and rainfall levels in each country, for a period of 120 years from 1901 to 2021 respectively. We then combined all of these separate datasets together through a series of preprocessing steps. The code used to perform this data preprocessing can be found in the notebooks folder.
 
-The cleaned and consolidated datasets can also be found in the data folder under africa_rainfall_cleaned.csv and africa_temp_cleaned.csv respectively.
+The cleaned and consolidated datasets can also be found in the data folder under India_rainfall_cleaned.csv and India_temp_cleaned.csv respectively.
 
 ### Crop Data
 Data on the ideal conditions to grow certain crops was not readily attainable. Hence, we curated our own crop attributes dataset through research by reading through pages from the Food and Agriculture Organization of the United Nation. We also referenced the Crop Recommendation Dataset hosted on Kaggle.
@@ -223,7 +223,7 @@ Desirability, feasibility, and viability is the holy trinity for innovation. Ide
 The following summarizes the considerations for each of the criteria, some of which have been mentioned throughout the report:
 
 - Desirability
-  - Africa is amongst the **worst hit by food insecurity**, and the information provided by Farmtech could help educate the Tamilnadu farming community to enhance their crop yields 
+  - India is amongst the **worst hit by food insecurity**, and the information provided by Farmtech could help educate the Tamilnadu farming community to enhance their crop yields 
   - The Tamilnadu agriculture sector is one of the least efficient, and having more access to information could help them in becoming more efficient 
   - For lower income countries, a larger portion of their income is spent on food. The rising food prices further challenges food security for them. Improved crop yields from using Farmtech could help to keep food prices low for the Tamilnadu community
   - Tamilnadu governments, agricultural ministries, and international aid groups could use the tool to better understand existing and ideal conditions, and provide necessary support to the farmers
@@ -262,7 +262,7 @@ To be able to compare data in the same manner, conversion into a common unit was
 ## Future Work
 Farmtech is built with scalability in mind. It can be scaled up in several ways, and most times, the limiting factor is the availability of relevant data. 
 
-### Expanding Target Region Outside Africa
+### Expanding Target Region Outside India
 As long as relevant datasets for other regions are available, the tool can be expanded to cater to those regions as well. An accompanying feature could be having Farmtech available in different languages as well. 
 
 ### Increasing Number of Variables for Crop Recommendations
